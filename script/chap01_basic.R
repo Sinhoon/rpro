@@ -163,6 +163,7 @@ num3
 # 5. 도움말  
 
 # 1)기본함수
+mean(c(10,20,30,NA))
 mean(c(10,20,30,NA) , na.rm =TRUE) # 평균 
 help(mean)
 ?mean

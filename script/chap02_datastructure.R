@@ -31,12 +31,12 @@ a[a>10 & a<40]
 # 동일한 자료형을 갖는 2차원(행,열) 배열
 # matrix(), rbind(), cbind()
 
-m1 = matrix(c(1:31),nrow = 3)
+m1 = matrix(c(1:27),nrow = 3)
 dim(m1)
-
+m1
 x1 <- c(1:5)
 x2 <- 5:1
-
+x2
 rbind(x1,x2)
 
 cbind(x1,x2)
@@ -62,7 +62,7 @@ x <- 1:3
 y <- matrix(rep(1,6),nrow=2,byrow=FALSE)
 y
 dim(y)
-z <- x*y
+z <- y*x
 z
 
 # apply() : 처리

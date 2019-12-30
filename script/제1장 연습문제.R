@@ -28,6 +28,7 @@ str(women)
 mode(women)
 #조건3) plot() 함수를 이용하여 기본 차트 그리기
 plot(women)
+str(women[1,1])
 
 #05. R에서 제공하는 c()함수를 이용하여 벡터를 생성하고, 자료를 처리하시오.
 
@@ -36,3 +37,11 @@ test <- c(1:10)
 test
 #조건2) 생성된 벡터를 대상으로 평균을 구한다.
 mean(test)
+str(test)
+
+first <- list(1,2,3)
+second <- list('one','two')
+ab <- data.frame(first,second)
+str(ab)
+k <- c(a='a',b='b',c='c')
+k[1]
