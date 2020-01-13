@@ -70,7 +70,6 @@ url <- "http://ssti.org/blog/useful-stats-capita-personal-income-state-2010-2015
 titanic <- read.csv("https://vincentarelbundock.github.io/Rdatasets/csv/COUNT/titanic.csv")
 titanic
 str(titanic)
-
 dim(titanic)
 
 table(titanic['sex'])

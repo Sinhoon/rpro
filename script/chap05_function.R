@@ -152,7 +152,7 @@ hist(rnorm(1000,0,1))
 
 
 # 균등 분포 (실수형태 )
-r2 <- runif(1000,min=0,max=1)
+r2 <- runif(1000,min=0,max=2)
 hist(r2)
 
 

@@ -139,5 +139,7 @@ a = data.frame(member)
 class(a)
 a
 a$age
+seq(10,5,-2)
 
 # list$key  data.frame$column
+
